@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 0f92212d3c46eb2693c2581d03549604a015a9e6
     background-color: hsl(0, 0%, 98%);
     font-family: Poppins, sans-serif;
     display: flex;
@@ -80,5 +84,10 @@ transform: translate( -110%,73%);}
     position: absolute;
 transform: translate( 110%,-190%);
 }
+<<<<<<< HEAD
 
 }  
+=======
+    
+} 
+>>>>>>> 0f92212d3c46eb2693c2581d03549604a015a9e6
