@@ -1,0 +1,84 @@
+body{
+    
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+:root {
+    --font:15px;
+}
+
+#head{
+    text-align: center;
+}
+.st{
+font-weight: lighter;
+}
+
+p{
+    font-size: var(--font);
+    color:hsl(229, 6%, 66%);
+
+}
+
+
+#supervisor, #team, #karma, #calc{
+    /* border: solid 1px black; */
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius:0px 0px 4px 4px;
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 0.2px 0px 5px hsl(234, 12%, 34%);
+
+
+}
+
+.img-one , .img-two , .img-three , .img-four {
+    float: right;
+    margin:20px;
+}
+.col::after{
+    content:"";
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    top: -7px;
+    left: 0px;
+    border-radius: 3px 3px 0px 0px;
+
+
+
+}
+.col-red::after{
+    background-color: hsl(0, 78%, 62%) ;
+}
+.col-orange::after{
+    background-color: hsl(34, 97%, 64%);
+}
+.col-blue::after{
+    background-color: hsl(180, 62%, 55%);
+
+}
+.col-cyan::after{
+    background-color: hsl(180, 62%, 55%) ;
+
+}
+
+@media  (min-width:800px) {
+#supervisor{
+    position: absolute;
+transform: translate( -110%,73%);}
+#calc{
+    position: absolute;
+transform: translate( 110%,-190%);
+}
+    
+} 
